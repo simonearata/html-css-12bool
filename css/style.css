@@ -1,0 +1,19 @@
+[class*="col-"]{
+  text-align: center;
+  background-color: #fec0cb;
+  border: 1px solid black;
+  line-height: 150px;
+  height: 150px;
+}
+
+.col-6 > [class*="col-"]{
+  background-color: #f08080;
+  border: 1px solid white;
+  height: 140px;
+  padding-top: 60px;
+  line-height: normal;
+}
+
+.container > .col-6{
+  padding: 5px;
+}
